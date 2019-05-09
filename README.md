@@ -64,7 +64,16 @@ en el **main.scss** usted podra trabajar con sass
 ### Carpeta css 
 en el **main.css** usted podra trabajar con css
 
+### Agregar Multiples entradas HTML
 
+Para agregar otras entradas edite webpack.config.js y agregue en "plugins" el siguiente objeto
+```new HtmlWebpackPlugin({
+
+            template: './src/mi nueva-entrada.html',
+            inject: true,
+            filename: './mi nueva-entrada.html'
+            
+        })```
 
 
 

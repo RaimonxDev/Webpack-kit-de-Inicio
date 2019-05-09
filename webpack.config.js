@@ -90,10 +90,21 @@ module.exports = {
         new HtmlWebpackPlugin({
             //entrada
             template: './src/template.html',
+            inject: true,
             //salida
             filename: './index.html'
             
+        }),
+        //Agregar otras entradas
+        new HtmlWebpackPlugin({
+            //entrada
+            template: './src/test.html',
+            inject: true,
+            //salida
+            filename: './test.html'
+            
         })
+
 
     ]
 

@@ -1,5 +1,5 @@
 # Kit de inicio Webpack
-Esta kit de inicio esta pensado para todo principiante en webpack y desarrollo Front-End.
+Este kit de inicio esta pensado para todo principiante en webpack y desarrollo Front-End.
 Usted puede agregar mas dependencias al proyecto con Angular, React, Vue, y mucho mas. y configurar a su manera a medida que obtenga mas experiencia, el objetivo es ayudar al principiante. 
 
 ***author***: Ramon Martinez <ramonmartinezcordero@gmail.com>
